@@ -16,7 +16,9 @@ function Login() {
         />
 
         <button
-          onClick={authenticate}
+          onClick={() => {
+            authenticate();
+          }}
           className="bg-yellow-500 rounded-lg px-4 py-3 font-bold"
         >
           Log in to Metaverse

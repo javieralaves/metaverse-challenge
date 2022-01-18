@@ -15,7 +15,7 @@ function Login() {
         <div className="flex flex-col gap-4 transition ease-in-out items-center bg-white px-20 py-16 rounded-xl drop-shadow-md hover:drop-shadow-xl">
           <Image
             className="object-cover rounded-full"
-            src="https://raw.githubusercontent.com/javieralaves/images/main/0xterrace.png"
+            src="https://raw.githubusercontent.com/javieralaves/images/main/Logo.png"
             height={80}
             width={80}
           />

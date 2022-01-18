@@ -3,7 +3,7 @@ import { useMoralis } from "react-moralis";
 import Avatar from "./Avatar";
 
 function Header() {
-  const { logout } = useMoralis();
+  const { user, logout } = useMoralis();
   return (
     <div className="grid grid-cols-2 h-14">
       <div className="flex items-center gap-4">
@@ -27,7 +27,7 @@ function Header() {
           Change username
         </button>
         <div className="relative h-12 w-12">
-          <Avatar />
+          <Avatar username={user.get("username")} />
         </div>
       </div>
     </div>
